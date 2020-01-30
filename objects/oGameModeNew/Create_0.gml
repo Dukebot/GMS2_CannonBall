@@ -4,7 +4,7 @@ audio_stop_all();
 audio_play_sound(sndBackground, 0, 1);
 
 //Bonus
-bonusSpawnRate = 5*60;
+bonusSpawnRate = 6*60;
 alarm[1] = bonusSpawnRate;
 
 //Level
@@ -18,10 +18,10 @@ ini_close();
 
 //Enemy
 enemySpawnRateIncrement = 0.95;
-enemySpawnRate = 2*60 * power(enemySpawnRateIncrement, level-1);
+enemySpawnRate = 1.5*60 * power(enemySpawnRateIncrement, level-1);
 alarm[0] = enemySpawnRate;
 
-enemySpeedBase = 2;
+enemySpeedBase = 3;
 enemySpeedIncrement = 0.05;
 
 //Level win
