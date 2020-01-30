@@ -1,0 +1,1 @@
+return enemySpeedBase + enemySpeedIncrement * (level-1);

@@ -1,0 +1,1 @@
+instanceCreate(oExplosionFlash, x, y);

@@ -1,0 +1,1 @@
+initMovable(1, 0, 120);
