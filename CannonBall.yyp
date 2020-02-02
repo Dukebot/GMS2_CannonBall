@@ -194,7 +194,7 @@
             "Key": "1811d041-f0db-4158-9c00-db51e6783a02",
             "Value": {
                 "id": "d931993c-8895-422c-b360-66cb6b964a2b",
-                "resourcePath": "sprites\\sBonus\\sBonus.yy",
+                "resourcePath": "sprites\\sPowerUpBomb\\sPowerUpBomb.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "71509bcc-c26e-4a48-8d39-f7bd5c897b9c",
+            "Value": {
+                "id": "56459cbe-7ce0-40f1-a44f-08f3e71babd0",
+                "resourcePath": "sprites\\sPowerUpShoot\\sPowerUpShoot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "71c103c6-884a-451c-a337-6bd343a3284e",
             "Value": {
                 "id": "46623b74-af59-4465-b543-de51760cb354",
@@ -844,6 +852,14 @@
                 "id": "302e93ae-7df5-46f8-a3d1-87bfe182cb6f",
                 "resourcePath": "views\\8b00a5a4-086e-4841-be0a-72c5975a3aef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8b5a7423-dcaf-43db-8599-2d151d27b623",
+            "Value": {
+                "id": "12c723bc-1ad4-4c7b-b4d1-6719790183e2",
+                "resourcePath": "sprites\\sPowerUpPlasma\\sPowerUpPlasma.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1436,6 +1452,14 @@
                 "id": "2abd9182-a918-49a5-8ca6-0da60f32fe53",
                 "resourcePath": "sprites\\sExitButton\\sExitButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "defbc4c5-e0cd-41f3-a30e-db7dec974179",
+            "Value": {
+                "id": "60e5bb1e-2699-4cf5-a60c-eee4291b849e",
+                "resourcePath": "views\\defbc4c5-e0cd-41f3-a30e-db7dec974179.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

@@ -14,14 +14,21 @@ Score = 500;
 
 //bonus type:
 enum BonusType {
-	shootStrength, 
-	//projectileSize,
-	chargeSpeed,
-	moreShoots
+	shootStrength,
+	moreShoots,
+	bomb,
 }
 
-bonusType = choose(0, 1, 2/*, 3*/);
+bonusType = choose(0, 1, 2);
 
 shootStrengthIncrement = 5;
-//projectileSizeIncrement = 1.5;
-chargeSpeedIncrement = 0.25;
+chargeSpeedIncrement = 0.15;
+
+//set sprite
+if (bonusType == BonusType.shootStrength) {
+	sprite_index = sPowerUpShoot;
+} else if (bonusType == BonusType.moreShoots) {
+	sprite_index = sPowerUpPlasma;
+} else if (bonusType == BonusType.bomb) {
+	sprite_index = sPowerUpBomb; 
+}

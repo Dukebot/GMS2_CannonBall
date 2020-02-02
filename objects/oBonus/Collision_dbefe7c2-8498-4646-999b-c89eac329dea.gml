@@ -8,19 +8,17 @@ other.targetsHit++;
 var messageText = "";
 if (bonusType == BonusType.shootStrength) {
 	oPlayer.shootStrengthMax += shootStrengthIncrement;
-	messageText = "Increasing player Shoot Strength!";
-	
-/*} else if (bonusType == BonusType.projectileSize) {
-	oPlayer.projectileSize *= projectileSizeIncrement;
-	messageText = "Increasing player Projectile Size!";*/
-	
-} else if (bonusType == BonusType.chargeSpeed) {
 	oPlayer.shootChargeSpeed += chargeSpeedIncrement;
-	messageText = "Increasing player Charge Speed!";
+	messageText = "Increasing player Shoot Strength!";
 	
 } else if (bonusType == BonusType.moreShoots) {
 	oPlayer.numShoots++;
 	messageText = "Increasing player Number of Shoots!";
+	
+} else if (bonusType == BonusType.bomb) {
+	instance_destroy(oEnemy);
+	instance_destroy();
+	messageText = "All enemies have been destroyed!";
 }
 
 createMessage(messageText);

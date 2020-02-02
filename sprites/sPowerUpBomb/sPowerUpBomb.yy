@@ -2,7 +2,7 @@
     "id": "1811d041-f0db-4158-9c00-db51e6783a02",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sBonus",
+    "name": "sPowerUpBomb",
     "For3D": false,
     "HTile": false,
     "VTile": false,
