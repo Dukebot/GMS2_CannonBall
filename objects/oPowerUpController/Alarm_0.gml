@@ -1,5 +1,3 @@
 /// @description Spawn Bonus
-if (spawnBonus) {
-	instanceCreate(oBonus);
-	alarm [0] = bonusSpawnRate;
-}
+instanceCreate(oBonus);
+alarm [0] = bonusSpawnRate;

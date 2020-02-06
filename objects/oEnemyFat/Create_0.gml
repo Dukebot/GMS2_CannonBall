@@ -1,7 +1,7 @@
 event_inherited();
 
-setScale(3, 3);
+setScale(2, 2);
 
-Speed = 1;
+Speed = 2;
 Direction = 180;
 hitPoints = 100;

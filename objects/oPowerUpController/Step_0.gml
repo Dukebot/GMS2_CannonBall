@@ -1,1 +1,1 @@
-if (global.pause) alarm[0]++;
+if (global.pause or not spawnBonus) alarm[0]++;

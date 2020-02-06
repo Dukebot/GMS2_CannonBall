@@ -1,11 +1,10 @@
-if (spawnEnemy) {
-	var margin = 150;
+var margin = 150;
 	
-	var enemy = oEnemyShooter;
-	if (random(1) < 0.5) enemy = oEnemyFat;
-	if (random(1) < 0.5) enemy = oEnemyMovable;
-	
-	//createAsteroid();
+if (random(1) < 0.9) {
+	createAsteroid();
+} else {
+	var enemy = choose(oEnemyShooter, oEnemyFat, oEnemyMovable);
 	instanceCreate(enemy, room_width, random_range(margin, room_height - margin));
-}
+}	
+
 alarm[0] = enemySpawnRate;
