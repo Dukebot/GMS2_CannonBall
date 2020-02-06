@@ -1,38 +1,28 @@
 {
-    "id": "c7c7a166-3cd2-4798-94d5-b1543b9cf15f",
+    "id": "832b1551-b46e-4e8f-af26-e97cf6d60283",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGameModeNew",
+    "name": "oDrawController",
     "eventList": [
         {
-            "id": "45699eee-9dd3-48d4-b499-8a4f4bf460f6",
+            "id": "d7029358-f265-4da4-bf0e-3e193caad8f0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "c7c7a166-3cd2-4798-94d5-b1543b9cf15f"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "832b1551-b46e-4e8f-af26-e97cf6d60283"
         },
         {
-            "id": "89807b38-558a-4807-b945-ca9d70e52d17",
+            "id": "8101e3f8-bcd3-4285-b8b9-cfceddea8e4d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "c7c7a166-3cd2-4798-94d5-b1543b9cf15f"
-        },
-        {
-            "id": "3a840d0b-064b-4efc-b38b-71da9cc0fd0c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "c7c7a166-3cd2-4798-94d5-b1543b9cf15f"
+            "eventtype": 8,
+            "m_owner": "832b1551-b46e-4e8f-af26-e97cf6d60283"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

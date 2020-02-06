@@ -1,1 +1,1 @@
-return enemySpeedBase + enemySpeedIncrement * (level-1);
+return oGameModeNew.enemySpeedBase + oGameModeNew.enemySpeedIncrement * (oGameModeNew.level-1);

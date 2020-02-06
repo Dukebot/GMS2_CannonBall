@@ -7,8 +7,8 @@ var margin = 20;
 var increment = 30;
 
 //Game info
-draw_text(margin, margin+increment*1, "Level " + string(level));
-draw_text(margin, margin+increment*2, "Enemy Spawn Rate " + string(enemySpawnRate/60));
+draw_text(margin, margin+increment*1, "Level " + string(oGameModeNew.level));
+draw_text(margin, margin+increment*2, "Enemy Spawn Rate " + string(oEnemyController.enemySpawnRate/60));
 draw_text(margin, margin+increment*3, "Enemy Speed " + string(calculateEnemySpeed()));
 
 //Player info

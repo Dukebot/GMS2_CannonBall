@@ -1,6 +1,6 @@
-if (global.pause) {
-	speed = 0;
-	exit;
-}
+if (global.pause) exit;
 
-speed = speedBase;
+x += lengthdir_x(Speed, Direction);
+y += lengthdir_y(Speed, Direction);
+
+image_angle = Direction;

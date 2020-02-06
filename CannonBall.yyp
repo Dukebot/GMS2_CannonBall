@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0ad55e05-c33f-4f63-9a8c-9fb838816b72",
+            "Value": {
+                "id": "35c30864-7e46-4311-8779-7c36669bcefb",
+                "resourcePath": "objects\\oEnemyDisparador\\oEnemyDisparador.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0cbd36f9-6c10-4928-b463-668173d7594d",
             "Value": {
                 "id": "c27bcb2e-6e81-4f17-996c-1c9a5c16a786",
@@ -415,11 +423,27 @@
             }
         },
         {
+            "Key": "3c851167-c737-43ff-b566-53f83ef58624",
+            "Value": {
+                "id": "f0a240b7-56eb-4299-a707-5cb389b0189c",
+                "resourcePath": "objects\\oPowerUpController\\oPowerUpController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3e0d36fc-41fa-46f3-b740-3b5b6e8974ac",
             "Value": {
                 "id": "14fc236a-454d-40d1-8541-0417ea24e7ac",
                 "resourcePath": "sprites\\Asteroid_7\\Asteroid_7.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f3c08ec-67a9-4cbc-a7a1-dc13c75d8518",
+            "Value": {
+                "id": "94f2c83a-281b-44b2-9f9d-701b45ec5f43",
+                "resourcePath": "objects\\oEnemyRocket\\oEnemyRocket.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -436,6 +460,14 @@
                 "id": "23c25fa3-cfb8-47db-be14-0cbb72b7264b",
                 "resourcePath": "datafiles_yy\\Pixel Font Pack\\Retro1.ttf.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "42bab6bd-9798-4c92-8dd4-2d887fe2380e",
+            "Value": {
+                "id": "a53cff01-5f03-40b3-97f7-eba1143efe7b",
+                "resourcePath": "sprites\\sRocket\\sRocket.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -788,6 +820,14 @@
                 "id": "bcb5a2c2-bd52-4ab5-88a4-815d4c5c2402",
                 "resourcePath": "scripts\\drawSprite\\drawSprite.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "832b1551-b46e-4e8f-af26-e97cf6d60283",
+            "Value": {
+                "id": "426a41fb-e875-4993-affc-64250d742e65",
+                "resourcePath": "objects\\oDrawController\\oDrawController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1263,6 +1303,14 @@
             }
         },
         {
+            "Key": "c11d4f3c-384a-4892-9704-b283a4d6a22d",
+            "Value": {
+                "id": "e7f55832-0b22-403d-9a02-a79d17386ca0",
+                "resourcePath": "objects\\oInputController\\oInputController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c19c3e37-7128-4ae3-9a9b-7356ec8aa9eb",
             "Value": {
                 "id": "79c37dec-242c-4143-a761-f2d1400b239e",
@@ -1300,6 +1348,14 @@
                 "id": "a44102b7-5f0b-4766-b367-12065255ebbf",
                 "resourcePath": "sprites\\bg_gui\\bg_gui.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c3ffc4f7-bc04-4831-b9f0-4012eabeb144",
+            "Value": {
+                "id": "7e218850-e844-49bd-a4c3-92ea301e0f02",
+                "resourcePath": "scripts\\createPowerUpController\\createPowerUpController.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1387,6 +1443,14 @@
             "Value": {
                 "id": "13a50ea2-6972-4157-a4dc-3885014bb8eb",
                 "resourcePath": "scripts\\exception\\exception.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d0facb02-b4ea-45ae-9a36-33c5d9f1a460",
+            "Value": {
+                "id": "4e6da887-91eb-461e-9f8e-6d7a8f9ef71c",
+                "resourcePath": "scripts\\createEnemyController\\createEnemyController.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1663,6 +1727,14 @@
             }
         },
         {
+            "Key": "f631a70b-9a18-4377-bdad-e9af14166026",
+            "Value": {
+                "id": "bc72eebe-2442-48c2-8027-b379e9a33549",
+                "resourcePath": "objects\\oEnemyController\\oEnemyController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f69c99ad-78f5-487d-9057-08a20b91a04f",
             "Value": {
                 "id": "b2971c00-9afe-4d8a-8c4a-5db618ef474d",
@@ -1741,9 +1813,11 @@
         "9909d3e0-8d29-4031-a8f3-cc4b900ce6f3",
         "0998e908-db0c-4fc4-bae9-20352628e39c",
         "39fa8183-c554-4f63-8125-0698760880f7",
+        "f7171387-24eb-4f54-9985-a8ca01778014",
         "9ef3e96b-920a-40ea-bd5f-4b26df51a188",
         "e2809267-0d55-47ee-bf76-eb162dbf597a",
-        "f7171387-24eb-4f54-9985-a8ca01778014",
+        "c3ffc4f7-bc04-4831-b9f0-4012eabeb144",
+        "d0facb02-b4ea-45ae-9a36-33c5d9f1a460",
         "96aeb525-55e0-4ff9-92ce-3c080f54d7c8",
         "e7f4219a-2d0a-4233-8050-087882be202c",
         "276f1ab7-33a8-4b17-b072-356e62541a27",
