@@ -1,28 +1,18 @@
 {
-    "id": "0ad55e05-c33f-4f63-9a8c-9fb838816b72",
+    "id": "71445241-d177-4de2-8f97-f0aad416aa48",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oEnemyDisparador",
+    "name": "oEnemyFat",
     "eventList": [
         {
-            "id": "dc063030-70ce-4446-9b97-22e64b9a2a00",
+            "id": "1c2fa49f-64ee-4f1f-a99b-abbacd3bd64d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "0ad55e05-c33f-4f63-9a8c-9fb838816b72"
-        },
-        {
-            "id": "825aa525-0955-43e6-92a8-ecbafe6842f6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "0ad55e05-c33f-4f63-9a8c-9fb838816b72"
+            "m_owner": "71445241-d177-4de2-8f97-f0aad416aa48"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

@@ -9,3 +9,6 @@ targetsHit = 0;
 
 //Score points accumulated with this projectile.
 Score = 0;
+
+//enemies hitted by this projectile
+enemiesHitted = 0;

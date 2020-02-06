@@ -26,4 +26,5 @@ enemySpeedIncrement = 0.05;
 instanceCreate(oInputController);
 instanceCreate(oDrawController);
 createPowerUpController(8*60);
-createEnemyController(enemySpawnRate);
+//createEnemyController(enemySpawnRate);
+createEnemyController(4*60);
