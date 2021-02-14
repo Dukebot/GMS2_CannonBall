@@ -1,8 +1,12 @@
 {
-    "id": "f7171387-24eb-4f54-9985-a8ca01778014",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "calculateEnemySpeed",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Game",
+    "path": "folders/Scripts/Game.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "calculateEnemySpeed",
+  "tags": [],
+  "resourceType": "GMScript",
 }

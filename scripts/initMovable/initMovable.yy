@@ -1,8 +1,12 @@
 {
-    "id": "e826339a-3ffa-4a47-ac68-1db9bc7ca20e",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "initMovable",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Entities",
+    "path": "folders/Scripts/Entities.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "initMovable",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "472428cf-279b-4a2b-a216-f197669c2639",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "draw_button_rectangle",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "EasyGUI",
+    "path": "folders/Scripts/EasyGUI.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "draw_button_rectangle",
+  "tags": [],
+  "resourceType": "GMScript",
 }

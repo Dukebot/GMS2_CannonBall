@@ -1,8 +1,12 @@
 {
-    "id": "39fa8183-c554-4f63-8125-0698760880f7",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "setSolidsToNormalSize",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Game",
+    "path": "folders/Scripts/Game.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "setSolidsToNormalSize",
+  "tags": [],
+  "resourceType": "GMScript",
 }

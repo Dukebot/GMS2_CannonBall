@@ -1,8 +1,12 @@
-if (x < 0 or x > room_width
-	or y < 0 or y > room_height
-) {
-	return true;
-}
+function isOutsideRoom() {
+	if (x < 0 or x > room_width
+		or y < 0 or y > room_height
+	) {
+		return true;
+	}
 
-return false;
+	return false;
 	
+
+
+}

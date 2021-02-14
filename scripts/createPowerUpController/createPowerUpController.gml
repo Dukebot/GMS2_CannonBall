@@ -1,11 +1,15 @@
 ///@param spawnRate
-var SpawnRate = argument0;
+function createPowerUpController(argument0) {
+	var SpawnRate = argument0;
 
-var controller = instanceCreate(oPowerUpController);
+	var controller = instanceCreate(oPowerUpController);
 
-with (controller) {
-	bonusSpawnRate = SpawnRate;
-	alarm[0] = bonusSpawnRate;
+	with (controller) {
+		bonusSpawnRate = SpawnRate;
+		alarm[0] = bonusSpawnRate;
+	}
+
+	return controller;
+
+
 }
-
-return controller;

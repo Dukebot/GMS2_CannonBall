@@ -1,8 +1,12 @@
 {
-    "id": "c86cad6f-8a23-4990-8010-7305ac39c6c4",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "moveEnemy",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Entities",
+    "path": "folders/Scripts/Entities.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "moveEnemy",
+  "tags": [],
+  "resourceType": "GMScript",
 }

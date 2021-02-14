@@ -1,8 +1,12 @@
 {
-    "id": "9909d3e0-8d29-4031-a8f3-cc4b900ce6f3",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "putSolid",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Game",
+    "path": "folders/Scripts/Game.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "putSolid",
+  "tags": [],
+  "resourceType": "GMScript",
 }

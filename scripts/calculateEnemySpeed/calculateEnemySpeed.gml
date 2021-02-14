@@ -1,1 +1,5 @@
-return oGameModeNew.enemySpeedBase + oGameModeNew.enemySpeedIncrement * (oGameModeNew.level-1);
+function calculateEnemySpeed() {
+	return oGameModeNew.enemySpeedBase + oGameModeNew.enemySpeedIncrement * (oGameModeNew.level-1);
+
+
+}

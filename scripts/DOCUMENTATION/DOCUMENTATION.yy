@@ -1,8 +1,12 @@
 {
-    "id": "be180729-4d67-4613-853f-96d7694d4a10",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "DOCUMENTATION",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "EasyGUI",
+    "path": "folders/Scripts/EasyGUI.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "DOCUMENTATION",
+  "tags": [],
+  "resourceType": "GMScript",
 }
